@@ -7,7 +7,7 @@ body{
 	background-size:cover;
 	font-style: regular;
 	font-family:"Myriad Pro", Myriad,"Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color:#f0f0f1;
+	background-color:#ffffff;
 }
 
 .webgl-content,#loadingBlock,#errorBrowserBlock{
@@ -15,14 +15,14 @@ body{
 	position:absolute;
 	height:100vh;
 	width:100vw;
-	background-color:#f0f0f1;
+	background-color:#fafeff;
 }
 
 #gameContainer,canvas{
 	position:absolute;
 	height:100%;
 	width:100%;
-	background-color:#f0f0f1;
+	background-color:#ffffff;
 }
 
 #fullScreenButton{
@@ -40,7 +40,7 @@ body{
 }
 
 .subtitle{
-	color:#1896a7;
+	color:#ffffff;
 	font-size:2.5vh;
 	padding-bottom:3vh;
 	padding-top: 3vh;
