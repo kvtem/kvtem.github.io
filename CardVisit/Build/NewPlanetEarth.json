@@ -5,7 +5,7 @@
 "dataUrl": "NewPlanetEarth.data.unityweb",
 "wasmCodeUrl": "NewPlanetEarth.wasm.code.unityweb",
 "wasmFrameworkUrl": "NewPlanetEarth.wasm.framework.unityweb",
-"graphicsAPI": ["WebGL 2.0"],
+"graphicsAPI": ["WebGL 1.0","WebGL 2.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
 "backgroundColor": "#231F20",
