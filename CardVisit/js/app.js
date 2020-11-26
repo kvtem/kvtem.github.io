@@ -3,14 +3,6 @@ let isCameraReady = false;
 let isDetectionManagerReady = false;
 let gl = null;
 
-function getCam(){
-    window.navigator.mediaDevices.getUserMedia({video:true}).then((stream)=>{
-        // let videoTrack = stream.getVideoTracks()[0];
-        // console.log(videoTrack);
-        document.querySelector("video").srcObject = stream;
-    }).catch(err=> console.log(err.name))
-}
-
 function cameraReady(){
     isCameraReady = true;
     gl = unityInstance.Module.ctx;
