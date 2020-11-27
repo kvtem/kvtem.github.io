@@ -5,7 +5,7 @@
 "dataUrl": "tét.data.unityweb",
 "wasmCodeUrl": "tét.wasm.code.unityweb",
 "wasmFrameworkUrl": "tét.wasm.framework.unityweb",
-"graphicsAPI": ["WebGL 3.0","WebGL 2.0","WebGL 1.0"],
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0","WebGL 3.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
 
